@@ -2,7 +2,7 @@
 
 With SCSS and fonts from [Font Awesome](http://fortawesome.github.com/Font-Awesome), `font-awesome-sass-rails` is a gem to integrate Font Awesome to your Rails application.
 
-It supports on Rails 3.1.1 and older.
+It supports Rails 3.1.1 and older.
 
 ## Installation
 
@@ -27,3 +27,9 @@ You can also use it with the SASS-converted Bootstrap gem, like [bootstrap-sass]
 
     @import 'bootstrap';
     @import 'font-awesome';
+
+## License
+
+The font and SCSS from [Font Awesome](http://fortawesome.github.com/Font-Awesome)  are under CC-BY-3.0.
+
+Others are under MIT license.
