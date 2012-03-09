@@ -2,7 +2,7 @@ module Font
   module Awesome
     module Sass
       module Rails
-        Class Engine < ::Rails::Engine
+        class Engine < ::Rails::Engine
         end
       end
     end
