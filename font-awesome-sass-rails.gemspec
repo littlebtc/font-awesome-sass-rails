@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = Font::Awesome::Sass::Rails::VERSION
   s.authors     = ["Hsiao-Ting Yu"]
   s.email       = ["sst.dreams@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "https://github.com/littlebtc/font-awesome-sass-rails"
+  s.summary     = %q{Font Awesome in SASS for Rails}
+  s.description = %q{Font Awesome, SASS version, with assets pipeline, for Rails 3.1+}
 
   s.rubyforge_project = "font-awesome-sass-rails"
 
