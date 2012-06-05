@@ -15,8 +15,6 @@ Add `font-awesome-sass-rails` gem to your `assets` group in the `Gemfile`:
       gem 'font-awesome-sass-rails'
     end
 
-`compass-rails` will be installed as a dependency, since current SCSS version of Font Awesome depending on Compass.
-
 Then in your `app/assets/stylesheets/application.css`:
 
     @import 'font-awesome';
