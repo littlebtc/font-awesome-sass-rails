@@ -2,7 +2,7 @@ module Font
   module Awesome
     module Sass
       module Rails
-        VERSION = "0.2.1"
+        VERSION = "2.0.0.0"
       end
     end
   end
