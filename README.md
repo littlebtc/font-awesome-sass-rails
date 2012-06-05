@@ -28,6 +28,16 @@ You can also use it with the SASS-converted Bootstrap gem, like [bootstrap-sass]
     @import 'bootstrap';
     @import 'font-awesome';
 
+### IE7 Support
+
+This gem also includes `font-awesome-ie7`, the stylesheet for IE7 support bundled with Font Awesome 2.0.
+
+Use this stylesheet with [conditional comment](http://en.wikipedia.org/wiki/Conditional_comment) may be the best way to support IE7. But it can be difficult when it comes to assets pipeline. See this article on StackOverflow for a workaround: [Using Rails 3.1 assets pipeline to conditionally use certain css](http://stackoverflow.com/questions/7134034/using-rails-3-1-assets-pipeline-to-conditionally-use-certain-css)
+
+When you try this workaround, in your `application-ie.css`, append:
+
+    @import 'font-awesome-ie7'
+
 ## License
 
 The font and SCSS from [Font Awesome](http://fortawesome.github.com/Font-Awesome)  are under CC-BY-3.0.
