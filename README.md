@@ -6,25 +6,23 @@ It supports Rails 3.1.1 and older.
 
 ## Installation
 
-Add `font-awesome-sass-rails` gem to your `assets` group in the `Gemfile`:
+Add `font-awesome-sass-rails` gem to your `Gemfile`:
 
-    group :assets do
-      gem 'sass-rails', "  ~> x.x.x"
-      gem 'coffee-rails', "~> x.x.x"
-      gem 'uglifier'
-      gem 'font-awesome-sass-rails'
-    end
+    gem 'font-awesome-sass-rails'
 
-Then in your `app/assets/stylesheets/application.css`:
+Then add the stylesheet to your Rails assets. The simplest way to apply Font Awesome site-wide is to add a `require` statement in `app/assets/stylesheet/application.css`:
 
-    @import 'font-awesome';
+    *= require _font-awesome
 
 That's it!
 
-You can also use it with the SASS-converted Bootstrap gem, like [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) or [anjlab-bootstrap-rails](https://github.com/anjlab/bootstrap-rails). Just import font-awesome right after bootstrap:
+If you want to manage where the stylesheet will be used or just prefer SCSS, you can use `@import` in a SCSS file (e.g. a new file named `libs.css.scss`) to import the stylesheet:
 
-    @import 'bootstrap';
     @import 'font-awesome';
+
+(By default Rails will import all SCSS files in `app/assets/stylesheet`, you can change this behavior by modifying `application.css`.)
+
+You can also use it with the SASS-converted Bootstrap gem, like [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) or [anjlab-bootstrap-rails](https://github.com/anjlab/bootstrap-rails). Just require/import font-awesome right after bootstrap.
 
 ### IE7 Support
 
@@ -34,7 +32,7 @@ Use this stylesheet with [conditional comment](http://en.wikipedia.org/wiki/Cond
 
 When you try this workaround, in your `application-ie.css`, append:
 
-    @import 'font-awesome-ie7'
+    *= require _font-awesome-ie7.min
 
 ## License
 
