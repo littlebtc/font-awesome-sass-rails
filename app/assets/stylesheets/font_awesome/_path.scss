@@ -3,12 +3,12 @@
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url('#{$FontAwesomePath}/fontawesome-webfont.eot?v=#{$FontAwesomeVersion}');
-  src: url('#{$FontAwesomePath}/fontawesome-webfont.eot?#iefix&v=#{$FontAwesomeVersion}') format('embedded-opentype'),
-    url('#{$FontAwesomePath}/fontawesome-webfont.woff?v=#{$FontAwesomeVersion}') format('woff'),
-    url('#{$FontAwesomePath}/fontawesome-webfont.ttf?v=#{$FontAwesomeVersion}') format('truetype'),
-    url('#{$FontAwesomePath}/fontawesome-webfont.svg#fontawesomeregular?v=#{$FontAwesomeVersion}') format('svg');
-//  src: url('#{$FontAwesomePath}/FontAwesome.otf') format('opentype'); // used when developing fonts
+  src: font-url('fontawesome-webfont.eot?v=#{$FontAwesomeVersion}');
+  src: font-url('fontawesome-webfont.eot?#iefix&v=#{$FontAwesomeVersion}') format('embedded-opentype'),
+    font-url('fontawesome-webfont.woff?v=#{$FontAwesomeVersion}') format('woff'),
+    font-url('fontawesome-webfont.ttf?v=#{$FontAwesomeVersion}') format('truetype'),
+    font-url('fontawesome-webfont.svg#fontawesomeregular?v=#{$FontAwesomeVersion}') format('svg');
+//  src: font-url('FontAwesome.otf') format('opentype'); // used when developing fonts
   font-weight: normal;
   font-style: normal;
 }
