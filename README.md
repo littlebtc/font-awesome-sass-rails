@@ -1,6 +1,6 @@
-# Font Awesome 3.0.2 + SASS + Rails
+# Font Awesome 3.0.2 + Sass + Rails
 
-With SASS and fonts from [Font Awesome](http://fortawesome.github.com/Font-Awesome), `font-awesome-sass-rails` is a gem to integrate Font Awesome to your Rails application.
+With Sass and fonts from [Font Awesome](http://fortawesome.github.com/Font-Awesome), `font-awesome-sass-rails` is a gem to integrate Font Awesome to your Rails application.
 
 It supports Rails 3.1.1 and older.
 
@@ -22,7 +22,7 @@ If you want to manage where the stylesheet will be used or just prefer SCSS, you
 
 (By default Rails will import all SCSS files in `app/assets/stylesheets`, you can change this behavior by modifying `application.css`.)
 
-You can also use it with the SASS-converted Bootstrap gem, like [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) or [anjlab-bootstrap-rails](https://github.com/anjlab/bootstrap-rails). Just require/import font-awesome right after bootstrap.
+You can also use it with the Sass-converted Bootstrap gem, like [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) or [anjlab-bootstrap-rails](https://github.com/anjlab/bootstrap-rails). Just require/import font-awesome right after bootstrap.
 
 ### IE7 Support
 
@@ -37,6 +37,6 @@ When you try this workaround, in your `application-ie.css`, append:
 ## License
 
 The font from [Font Awesome](http://fortawesome.github.com/Font-Awesome) is under [SIL Open Font License](http://scripts.sil.org/OFL).
-The SASS & CSS from [Font Awesome](http://fortawesome.github.com/Font-Awesome) is under the [MIT License](http://opensource.org/licenses/mit-license.html).
+The Sass & CSS from [Font Awesome](http://fortawesome.github.com/Font-Awesome) is under the [MIT License](http://opensource.org/licenses/mit-license.html).
 
 Others are under MIT license.
